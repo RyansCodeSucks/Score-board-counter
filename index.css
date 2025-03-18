@@ -1,9 +1,26 @@
 body {
     margin: 0;
-    max-width: ;
+    background-image: url("/images/night-soccer-stadium-render.webp");
+    background-size: cover;
+    font-size: 175%;
+    font-family: "Prosto One", sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    color: white;
+    max-width: 80%;
+    margin: 30vh auto;
+    background: #1B244A;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding-bottom: 35px;
+}
+
+#home-score, #away-score {
+    background-color: black;
+    text-align: center;
+    padding: auto 10px;
+    border-radius: 5%;
 }
