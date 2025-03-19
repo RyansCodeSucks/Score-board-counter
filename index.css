@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     background-image: url("/images/night-soccer-stadium-render.webp");
@@ -8,19 +15,33 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     color: white;
-    max-width: 80%;
+    max-width: 40%;
     margin: 30vh auto;
     background: #1B244A;
     border-radius: 10px;
-    border: 5px solid black;
+    border: 5px solid white;
     padding-bottom: 35px;
 }
 
 #home-score, #away-score {
     background-color: black;
     text-align: center;
-    padding: auto 10px;
-    border-radius: 5%;
+    padding-top: 10px ;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
+
+.cursed {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    border-color: #9AABD8;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: #9AABD8;
+    border-radius: 15%;
+}
+
+
